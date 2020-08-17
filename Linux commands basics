@@ -10,3 +10,5 @@ ln -s original softlink -creating soft link
 chmod -R 777 .          -change directory permission
 grep -irHn "hello" .    -search hello in present directory
 find . -name "abc.txt"  -search for file in present directory
+mkdir                   -creating a directory
+rm -rf build/           -removing a directory
