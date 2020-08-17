@@ -1,0 +1,9 @@
+pwd
+cd /                    -go to root directory
+cd ~                    -go to home directory
+ls -l
+ls -i                   -get inode of files
+alias path="cd /Desktop/sujata" -creating alias of command
+type path               -check whether the command path already exist
+ln original hardlink    -creating hardlink of a file
+ln -s original softlink -creating soft link
