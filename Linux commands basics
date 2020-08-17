@@ -1,6 +1,7 @@
 pwd
 cd /                    -go to root directory
 cd ~                    -go to home directory
+cd ../                  -go one path behind
 ls -l
 ls -i                   -get inode of files
 alias path="cd /Desktop/sujata" -creating alias of command
