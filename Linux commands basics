@@ -13,3 +13,5 @@ grep -irHn "hello" .    -search hello in present directory
 find . -name "abc.txt"  -search for file in present directory
 mkdir                   -creating a directory
 rm -rf build/           -removing a directory
+cp -vrf src.txt destination -copy src.txt to destination path
+mv abc hello             -rename the file abc to hello
